@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Harry Cohen-Dumani</title>
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" href="seprate-exp.css"> <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="scroll_progress/scroll_progress.css">
+  <link rel="icon" type="image/x-icon" href="header/HCD_logo.png">
+  
+</head>
+
+<!-- Global Styles: Apply the monospace font all over -->
+<style>
+  .top-page-title{
+    margin-top:40px;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  nav, 
+  .mobile-menu,
+  .desktop-menu,
+  footer,
+  .footer-content,
+  .footer-links,
+  .useless-button {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, 
+  .section-title, 
+  .card-title, 
+  .feature-title,
+  .skill,
+  .button,
+  .cta-button {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  p, 
+  .card-description, 
+  .feature-description,
+  li {
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+
+<body>
+  <!-- Progress Bar for Scrolling -->
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  <!-- (Optional) Skip to content link for accessibility -->
+  <a class="skip-link" href="#main-content" style="position:absolute; left:-999px; top:-999px;">Skip to main content</a>
+  <nav id="nav">
+      <!-- Hamburger Menu Icon for Mobile -->
+    <div class="hamburger-icon"> 
+        <a href="index.html#home">
+            <img src="header/HCD_logo.png" alt="Harry Cohen-Dumani Logo" class="nav-logo">
+        </a>
+        <!-- Menu Icon -->
+        <div class="menu-icon" onclick="toggleMenu()"> <!--calls toggle menu in js when clicked.-->
+            <span class="line line1"></span> <!-- Top line of = that will become part of X -->
+            <span class="line line2"></span> <!-- Bottom line of = that will become part of X -->
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+    </div>
+    <!-- Desktop nav menu-->
+    <ul class="desktop-menu">
+        <a href="index.html#home"><li> <img src="header/HCD_logo.png" alt="Harry Cohen-Dumani Logo" class="nav-logo"> </li></a>
+        <a href="index.html#home"><li>Home</li></a>
+        <a href="index.html#experience"><li>Experience</li></a>
+        <a href="index.html#projects"><li>Projects</li></a>
+        <a href="index.html#contact"><li>Contact</li></a>
+    </ul>
+  </nav>
+  <!-- Project Section -->
+  <section class="projects-section">
+    <div class="container">
+      <header class="section-header">
+        <h1 class="top-page-title">Projects</h1>
+      </header>
+      <div class="projects-grid">
+
+        <!--PROJECT1-->
+        <div class="project-card" id="light">
+          <div class="card-content">
+            <img class="card-image" src="projects/auto_light.png" alt="Automatic Analog Lighting System Project Thumbnail" />
+            <div class="card-text">
+              <h2 class="card-title">Automatic Analog Lighting System</h2>
+              <p class="card-description">
+                Fully analog automatic lighting system integrating a comparator Op-Amp, a passive infrared sensor (PIR), transistors, and a photoresistor to turn on a light.<br><br>
+                Light activates only when ambient light is low and motion is detected, leading to cost savings due to increased efficiency.<br><br>
+                Added an adjustable potentiometer to change sensitivity to light and motion for ease of use. <br><br>
+                Simulated circuit, designed PCB, and designed a 3D-printed enclosure for a compact prototype. <br>
+              </p>
+              <div class="skills">
+                <a href="https://drive.google.com/file/d/14bhWb0arqdE4gr4Lan3cQH3DZ0vBjSSt/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="skill">
+                  <i class="fas fa-microchip"></i>
+                  <span>Schematic</span>
+                </a>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--PROJECT2-->
+        <div class="project-card" id="clock">
+          <div class="card-content">
+            <img class="card-image" src="projects/clock.png" alt="Project Thumbnail" />
+            <div class="card-text">
+              <h2 class="card-title">Alarm Clock and Weather Tracker</h2>
+              <p class="card-description">
+                Developed my own seven-segment display from scratch using programmable LEDs.<br><br>
+                Used and RTC module to keep track of time and date. Which also had an ambient temperature sensor.<br><br>
+                Translate RTC clock value to a 7-segment display and display the time and date based on inputs from buttons soldered to microcontroller.<br>
+              </p>
+              <div class="skills">
+                <a href="https://youtu.be/r-C6eiDaEsY?si=SyXKjWZNqaZ7nWPk" target="_blank" rel="noopener noreferrer" class="skill">
+                  <i class="fab fa-youtube"></i>
+                  <span>YouTube Video</span>
+                </a>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--PROJECT3-->
+        <div class="project-card" id="seo">
+          <div class="card-content">
+            <img class="card-image" src="projects/seo.png" alt="Project Thumbnail" />
+            <div class="card-text">
+              <h2 class="card-title">Web Developing and Personal Portfolio</h2>
+              <p class="card-description">
+                Developed my own personal portfolio using HTML, CSS, and JavaScript.<br><br>
+                Used knowledge about web development to create a responsive and user-friendly website.<br><br>
+                Used knowledge about computer science to program the website. <br><br>
+                Examples include my own portfolio, organizations around my school campus, and businesses in town.<br><br>
+              </p>
+
+              <div class="skills">
+                <a href="https://www.tamuagi.com" target="_blank"><span class="skill">Aggie Gentlemen of Integrity</span></a>
+                
+                <a href="https://www.tamueconsociety.com/" target="_blank"><span class="skill">Texas A&M Economics Society</span></a>
+                
+                <a href="https://karamhaddad.com/" target="_blank"><span class="skill">My personal portfolio!</span></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skills">
+        <a href="index.html#projects" class="skill">
+          <i class="fas fa-home"></i>
+          <span>Return Home</span>
+        </a>
+      </div>
+
+  </section>
+  
+  <footer>
+    <div class="footer-content">
+      <a href="#home">
+        <img src="header/HCD_logo.png" alt="Harry Cohen-Dumani Logo" class="footer-logo" loading="lazy">
+      </a>
+      <div class="footer-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <p>&copy; 2025 Harry Cohen-Dumani</p>
+      <p>This website was entirely built from scratch using JavaScript, HTML, and CSS by Harry Cohen-Dumani</p>
+      <button id="useless-button" class="useless-button">Useless Button</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script> <!-- Link to the nav -->
+  <script src="scroll_progress/scroll_progress.js"></script>
+</body>
+</html>

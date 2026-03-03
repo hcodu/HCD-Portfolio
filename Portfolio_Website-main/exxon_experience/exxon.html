@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExxonMobil Engineering Internship Experience: PLC & Instrumentation | Harry Cohen-Dumani</title>
+
+  <!-- Enhanced SEO Meta Tags -->
+  <meta name="description" content="Insights into ExxonMobil engineering internships focusing on PLC programming and instrumentation. Learn about real projects, technical skills, and career growth opportunities at ExxonMobil from an intern's perspective.">
+  <meta name="keywords" content="ExxonMobil engineering internships, ExxonMobil instrumentation, PLC Engineering, Instrumentation Engineering, ExxonMobil intern experience, industrial automation internship, control systems internship">
+  <meta name="author" content="Harry Cohen-Dumani">
+  <meta name="robots" content="index, follow">
+
+  <!-- Enhanced Open Graph / Facebook -->
+  <meta property="og:title" content="ExxonMobil Engineering Internship: PLC & Instrumentation Projects">
+  <meta property="og:description" content="Explore ExxonMobil engineering internship experiences in PLC programming and instrumentation. Real projects, technical skills, and career insights from an ExxonMobil intern.">
+  <meta property="og:image" content="https://karamhaddad.com/header/kh_logo.png">
+  <meta property="og:url" content="https://karamhaddad.com/exxon_experience/exxon.html">
+  <meta property="og:type" content="article">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ExxonMobil Engineering Internships Experience - Harry Cohen-Dumani">
+  <meta name="twitter:description" content="Explore Harry Cohen-Dumani's internship experience at ExxonMobil, specializing in PLC and Instrumentation Engineering.">
+  <meta name="twitter:image" content="https://karamhaddad.com/header/kh_logo.png">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://karamhaddad.com/exxon_experience/exxon.html">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "ExxonMobil Engineering Internship Experience: PLC & Instrumentation",
+      "description": "Comprehensive overview of ExxonMobil engineering internships, focusing on PLC programming and instrumentation projects. Features real-world experience in industrial automation, control systems, and HART communication.",
+      "author": {
+        "@type": "Person",
+        "name": "Harry Cohen-Dumani",
+        "url": "https://karamhaddad.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Harry Cohen-Dumani",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://karamhaddad.com/header/kh_logo.png"
+        }
+      },
+      "datePublished": "2023-06-01",
+      "dateModified": "2024-02-09",
+      "image": "https://karamhaddad.com/header/kh_logo.png",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://karamhaddad.com/exxon_experience/exxon.html"
+      },
+      "keywords": "ExxonMobil engineering internships, ExxonMobil instrumentation, PLC programming, industrial automation, control systems, HART communication"
+    }
+    </script>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" type="text/css" href="../css/experience.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/nav.css">
+  <link rel="stylesheet" href="../seprate-exp.css">
+  <link rel="stylesheet" href="../scroll_progress/scroll_progress.css">
+
+  <link rel="icon" type="image/x-icon" href="../header/kh_logo.png">
+
+  <!-- Global Styles: Apply the monospace font all over -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+  
+  <!-- Additional styles for this page (banner, cards, etc.) -->
+  <style>
+    /* ---------- Base Styles ---------- */
+    .banner {
+      margin: 0;
+      padding-top: 100px;
+      padding-bottom: 120px;
+      width: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(16, 16, 16)), url(exxon_banner.JPG);
+      background-size: cover;
+      background-position: center;
+      color: #d8d5db;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5em;
+    }
+    ul {
+      padding-left: 25px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .project-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .my_image {
+      max-width: 100%;
+      height: auto;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+    .project-description {
+      max-width: 800px;
+      text-align: left;
+    }
+    .skill-here {
+      padding: 10px;
+      background-color: #333;
+      color: #e8e8e8;
+      font-size: 12px;
+      font-weight: 500;
+      border-radius: 10px;
+      width: 120px;
+      height: 40px;
+      border: none;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 10px 20px rgba(51,51,51,0.2);
+      position: relative;
+      margin: 5px;
+    }
+    .skill-here::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(135deg, #7b4397, #dc2430);
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+    .top-header {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      align-items: center;
+      text-align: center;
+    }
+    /* ---------- Card Styling ---------- */
+    .card {
+      width: 220px;
+      height: 260px;
+      border-radius: 20px;
+      padding: 5px;
+      padding-right: 14px;
+      padding-bottom: 14px;
+      margin-right:10px;
+      background-image: linear-gradient(135deg, #7b4397, #dc2430);
+      margin-bottom: 10px;
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+    }
+    .card__content {
+      background: rgb(5, 6, 45);
+      border-radius: 17px;
+      width: 95%;
+      height: 96%;
+      padding: 10px;
+      text-align: left;
+    }
+    /* ---------- Grid Styling for Non-Carousel Sections ---------- */
+    .card-grid {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+    }
+    /* ---------- Carousel Container ---------- */
+    .top-title {
+      z-index: 5; /* so it's above the carousel */
+      margin-bottom: -15px; /* lower it to get to the carousel */
+      color: #F5F5F7;
+    }
+    .experience-container {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+      padding: 10px;
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+      scrollbar-width: thin;
+      scrollbar-color: #555 #333;
+    }
+    /* ---------- Header & Arrow Buttons ---------- */
+    .header-container {
+      margin: 0 auto;
+      max-width: 1000px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .title-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btns {
+      display: flex;
+      justify-content: flex-end;
+      width: auto;
+    }
+    .pre-btn, .nxt-btn {
+      margin: 5px;
+      padding: 10px;
+      background-color: #333336;
+      border-radius: 20%;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .pre-btn {
+      transform: rotate(180deg);
+    }
+    .pre-btn img, .nxt-btn img {
+      opacity: 0.2;
+      transition: opacity 0.3s ease-in-out;
+    }
+    .pre-btn:hover img, .nxt-btn:hover img {
+      opacity: 1;
+    }
+    /* ---------- Media Queries ---------- */
+    @media (max-width: 768px) {
+      .card-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr;
+      }
+      /* For carousel cards on small screens, maintain a fixed width */
+      .experience-container .card {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+      }
+      .card {
+        padding-right: 10px;
+        padding-bottom: 17px;
+      }
+      .experience-container {
+        gap: 10px;
+        justify-content: flex-start; /* Align to the left */
+        padding-left: 0;
+        scroll-padding-left: 0;
+      }
+      /* Hide arrow buttons on small screens */
+      .btns {
+        display: none;
+      }
+      /* Center headings and reduce font sizes */
+      .header-container,
+      .title-container,
+      h2 {
+        text-align: center;
+        font-size: 2em;
+      }
+      /* Adjust top-title text specifically on small screens */
+      .top-title {
+        font-size: 0.5em; /* Reduced size */
+        margin-bottom: -10px; /* Adjusted margin */
+        text-align: center;
+      }
+      /* Override title-container flex alignment so the title centers */
+      .title-container {
+        justify-content: center;
+      }
+      iframe {
+        width: 115%;
+        height: auto;
+        aspect-ratio: 16/9;
+      }
+      .xom_logo {
+        width: 75%;
+        height: auto;
+      }
+      .project-description {
+        max-width: 90%;
+      }
+      .my_image {
+        width: 70%;
+        height: auto;
+      }
+    }
+    @media (max-width: 600px) {
+      .btns {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <div class="hamburger-icon">
+      <a href="../index.html#home">
+        <img src="../header/kh_logo.png" alt="Harry Cohen-Dumani Logo" class="nav-logo">
+      </a>
+      <div class="menu-icon onclick="toggleMenu()">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+      </div>
+    </div>
+    <div class="mobile-menu hidden">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#contact">Contact</a>
+    </div>
+    <ul class="desktop-menu">
+      <a href="../index.html#home"><li><img src="../header/kh_logo.png" alt="Harry Cohen-Dumani Logo" class="nav-logo"></li></a>
+      <a href="../index.html#home"><li>Home</li></a>
+      <a href="../index.html#experience"><li>Experience</li></a>
+      <a href="../index.html#projects"><li>Projects</li></a>
+      <a href="../index.html#contact"><li>Contact</li></a>
+    </ul>
+  </nav>
+
+  <!-- Banner -->
+  <div id="home" class="banner">
+    <h1>ExxonMobil Engineering Internships Experience:<br>PLC and Instrumentation Engineering</h1>
+    <h3>Summer 2023 & 2024</h3>
+  </div>
+
+  <!-- Main Project Section -->
+  <div class="project-container">
+    <div class="project-description">
+      <p>Through my ExxonMobil engineering internships, I led impactful projects that delivered
+        $400,000+ in value, and grew both my technical, teamwork, and leadership skills. Explore some of the projects I have done!</p>
+      <h2 id="skills">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-here">PLC Programming</div>
+        <div class="skill-here">Control System Design</div>
+        <div class="skill-here">Troubleshooting</div>
+        <div class="skill-here">Network Protocols- Modbus, HART</div>
+        <div class="skill-here">Level, Pressure, &amp; Temperature</div>
+        <div class="skill-here">P&amp;ID Interpretation</div>
+        <div class="skill-here">Project Management</div>
+        <div class="skill-here">Data Acquisition and Analysis</div>
+        <div class="skill-here">Industrial Automoation</div>
+        <div class="skill-here">Relay Logic</div>
+      </div>
+
+      <br><br>
+
+      <!-- PLC Projects Carousel -->
+      <section id="experience" class="experience">
+        <div class="header-container">
+          <div class="title-container">
+            <!-- Unique ID for PLC title -->
+            <h2 id="plc-title" class="top-title">PLC Projects</h2>
+            <div class="btns">
+              <button id="exp-pre-btn" class="pre-btn">
+                <img src="../images/arrow.png" alt="Previous" loading="lazy">
+              </button>
+              <button id="exp-nxt-btn" class="nxt-btn">
+                <img src="../images/arrow.png" alt="Next" loading="lazy">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="experience-container" class="experience-container">
+          <div class="card">
+            <div class="card__content">
+              <strong>PLC Programming (Tricon)</strong><br>
+              <p>Programmed burner temperature diagnostics with DCS alarms and historization to mitigate failures and enhance monitoring.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+              <strong>HART Communication Implementation</strong><br>
+              <p>Implemented HART communication for critical control valves, which allows for more diagnostics while eliminating extra wiring costs.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+              <strong>Wireless Gateway Installation</strong><br>
+              <p>Enabled field-wide wireless communication for <strong>100 devices</strong>, improving data collection and monitoring capabilities.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+              <strong>PLC Power Supply Upgrade</strong><br>
+              <p>Ensure continuous system reliability and minimize disruptions, enhancing overall plant operations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br><br>
+
+      <!-- Instrumentation Projects Carousel -->
+      <section id="instrumentation" class="experience">
+        <div class="header-container">
+          <div class="title-container">
+            <!-- Unique ID for Instrumentation title -->
+            <h2 id="inst-title" class="top-title">Instrumentation Projects</h2>
+            <div class="btns">
+              <button id="inst-pre-btn" class="pre-btn">
+                <img src="../images/arrow.png" alt="Previous" loading="lazy">
+              </button>
+              <button id="inst-nxt-btn" class="nxt-btn">
+                <img src="../images/arrow.png" alt="Next" loading="lazy">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="experience-container2" class="experience-container">
+          <div class="card">
+            <div class="card__content">
+              <strong>PLC Programming (Allen-Bradley and Tricon)</strong><br>
+              <p>Add input for operators to speed up shutdown processes, reducing restart time by 6 hours and saving an estimated <strong>$250,000</strong> per incident.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+              <strong>Smart Electronic Flow Control Upgrade</strong><br>
+              <p>Upgraded pneumatic flow control loops to a smart electronic system, allowing for easier maintenance and data for valve monitoring.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+              <strong>Non-Intrusive Temperature Monitoring</strong><br>
+              <p>Temperature indication for monitoring on heat exchanger, avoiding <strong>$150,000</strong> in replacement costs by mitigating high-temperature damage.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__content">
+              <strong>Relay Logic Redesign</strong><br>
+              <p>Redesigned critical trip, latch, and reset functions, enhancing plant safety and reliability.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br><br>
+
+      <!-- Overall Experience Section -->
+      <h2>Professional Development</h2>
+      <p>
+        My time at ExxonMobil was more than just engineering projects! While working with amazing mentors and delivering impactful solutions, I learned how to work better within a team, and advanced my presentation and leadership skills.
+      </p>
+      <p>
+        <br>ExxonMobil's culture was incredibly supportive - whether you're figuring out complex engineering problems or looking for career advice. Moreover, I made some great friends through sports, volunteer work, and intern hangouts!
+      </p>
+      <div class="card-grid">
+        <img class="my_image" src="../exxon_experience/slide.gif" alt="ExxonMobil Engineering Internship Experience - Team Activities and Project Work"/>
+      </div>
+    </div>
+    <div class="flex flex-col items-center justify-center space-y-4">
+      <a href="../index.html#experience" class="skill flex items-center justify-center space-x-2 py-5">
+        <i class="fas fa-home"></i>
+        <span>Discover More</span>
+      </a>
+      <a href="../index.html#contact" class="skill flex items-center justify-center space-x-2 py-5">
+        <i class="fas fa-envelope"></i>
+        <span>Contact Me</span>
+      </a>
+    </div>
+  </div>
+    
+    
+
+  <!-- Updated Footer: wrap content in .footer-content and include useless button -->
+  <footer>
+    <div class="footer-content">
+      <a href="../index.html#home">
+        <img src="../header/kh_logo.png" alt="Harry Cohen-Dumani Logo" class="footer-logo" loading="lazy">
+      </a>
+      <div class="footer-links">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+      <p>&copy; 2025 Harry Cohen-Dumani</p>
+      <p>This website was entirely built from scratch using JavaScript, HTML, and CSS by Harry Cohen-Dumani</p>
+      <button id="useless-button" class="useless-button">Useless Button</button>
+    </div>
+  </footer>
+  
+  <script src="../script.js"></script>
+  <script src="../scroll_progress/scroll_progress.js"></script>
+</body>
+</html>
