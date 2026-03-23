@@ -34,7 +34,7 @@
   font-weight: 700;
   margin: 1rem auto 10px auto; /* this is margin for first top, right, bottom, left.*/
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(to right, #7b4397, #dc2430, #7b4397);
+  background: linear-gradient(to right, #7b4397, #2abced, #7b4397);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DishBot - Harry Cohen-Dumani</title>
+  <title>Dish-Bot - Harry Cohen-Dumani</title>
 
   <!-- Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -56,7 +56,7 @@
     .steps-image{
       max-width: 100%;
       height: auto;
-      box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+      box-shadow: rgba(42, 188, 237, 0.4) 5px 5px, rgba(42, 188, 237, 0.3) 10px 10px, rgba(42, 188, 237, 0.2) 15px 15px, rgba(42, 188, 237, 0.1) 20px 20px, rgba(42, 188, 237, 0.05) 25px 25px;
       margin-top: 5px;
       margin-bottom: 15px;
     }
@@ -93,8 +93,37 @@
       background-color: #ddd;
     }
     iframe{
-      box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+      box-shadow: rgba(42, 188, 237, 0.4) 0px 5px, rgba(42, 188, 237, 0.3) 0px 10px, rgba(42, 188, 237, 0.2) 0px 15px, rgba(42, 188, 237, 0.1) 0px 20px, rgba(42, 188, 237, 0.05) 0px 25px;
       margin-bottom: 15px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+      margin-bottom: 20px;
+      font-size: 0.95em;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #222;
+      color: #F5F5F7;
+    }
+    tr:nth-child(even) {
+      background-color: #1a1a1a;
+    }
+    code {
+      background-color: #222;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.9em;
+    }
+    ol {
+      padding-left: 25px;
     }
     @media (max-width: 768px) {
       .top-page-title{
@@ -148,108 +177,93 @@
   <section class="projects-section">
     <div class="project-container">
       <header class="section-header" style="padding-top: 50px;">
-        <h1 class="top-page-title">DishBot</h1>
+        <h1 class="top-page-title">Dish Detection Vision Bot</h1>
       </header>
 
       <div style="display: flex; justify-content: center; gap: 20px; align-items: center; margin: 0 0 30px 0; flex-wrap: wrap;">
-        <img src="img1.png" alt="DishBot" style="width: 300px; height: 300px; object-fit: cover; background-color: white; padding: 10px; border-radius: 8px; box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;">
-        <img src="img2.png" alt="DishBot" style="width: 300px; height: 300px; object-fit: cover; background-color: white; padding: 10px; border-radius: 8px; box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;">
+        <img src="IMG_6180.PNG" alt="DishBot" style="width: 300px; height: 300px; object-fit: cover; background-color: white; padding: 10px; border-radius: 8px; box-shadow: rgba(42, 188, 237, 0.4) 5px 5px, rgba(42, 188, 237, 0.3) 10px 10px, rgba(42, 188, 237, 0.2) 15px 15px, rgba(42, 188, 237, 0.1) 20px 20px, rgba(42, 188, 237, 0.05) 25px 25px;">
+        <img src="IMG_6181.PNG" alt="DishBot" style="width: 300px; height: 300px; object-fit: cover; background-color: white; padding: 10px; border-radius: 8px; box-shadow: rgba(42, 188, 237, 0.4) 5px 5px, rgba(42, 188, 237, 0.3) 10px 10px, rgba(42, 188, 237, 0.2) 15px 15px, rgba(42, 188, 237, 0.1) 20px 20px, rgba(42, 188, 237, 0.05) 25px 25px;">
+        <img src="IMG_6183.PNG" alt="DishBot" style="width: 300px; height: 300px; object-fit: cover; background-color: white; padding: 10px; border-radius: 8px; box-shadow: rgba(42, 188, 237, 0.4) 5px 5px, rgba(42, 188, 237, 0.3) 10px 10px, rgba(42, 188, 237, 0.2) 15px 15px, rgba(42, 188, 237, 0.1) 20px 20px, rgba(42, 188, 237, 0.05) 25px 25px;">
       </div>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/DBFbXrDwuZE?si=uPZJULHoCyj1GDKI" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
       <div class="project-description">
+
+        <h2>Project Overview</h2>
         <p>
-          This robot car uses a Raspberry Pi Pico W to navigate around obstacles. Let's dive into the main parts, tools used, assembly, programming, main logic, adjustments, testing, and future plans.
+          An automated roommate accountability system that uses computer vision to detect when dishes are left in the sink and identify who left them — then logs and displays the results on a web dashboard. The system combines a custom-trained YOLOv8/NCNN dish detection model with OpenCV face recognition, running on a Raspberry Pi 4 with two cameras.
         </p>
 
-        <h2>Main Parts</h2>
-        <img class="steps-image" src="../car_project/main_parts.png" alt="Main Parts" loading="lazy">
+        <h2>How It Works</h2>
+        <ol style="padding-left: 25px;">
+          <li><strong>Dish Camera (Camera 0)</strong> watches the sink. A custom YOLOv8/NCNN model detects dishes in real time.</li>
+          <li>When a dish is detected, the system assigns it a unique tracking ID and begins a <strong>3-second face-capture window</strong>.</li>
+          <li><strong>Face Camera (Camera 4)</strong> runs OpenCV LBPH face recognition simultaneously.</li>
+          <li>After the dish has been stationary for <strong>15 seconds</strong>, the system associates it with the closest recognized face from the capture window.</li>
+          <li>The event (person name, timestamp, dish snapshot, face snapshot) is saved to a <strong>SQLite database</strong>.</li>
+          <li>A <strong>Flask web dashboard</strong> serves live dual-camera feeds and a paginated event history.</li>
+        </ol>
+
+        <h2>Hardware</h2>
+        <h3>Bill of Materials</h3>
+        <table>
+          <tr><th>#</th><th>Item</th><th>Description</th><th>Qty</th></tr>
+          <tr><td>1</td><td>Raspberry Pi 4</td><td>Main compute board running all software</td><td>1</td></tr>
+          <tr><td>2</td><td>Logitech Brio</td><td>4K webcam used as the face recognition camera</td><td>1</td></tr>
+          <tr><td>3</td><td>Small USB Camera</td><td>Compact USB camera for dish detection at the sink</td><td>1</td></tr>
+        </table>
+
+        <h2>Software Architecture</h2>
+        <p>The application is built around a unified Flask server that runs both camera pipelines concurrently.</p>
+        <table>
+          <tr><th>Script</th><th>Description</th></tr>
+          <tr><td><code>app.py</code></td><td>Flask server, dual camera loop, dish-to-face association logic</td></tr>
+          <tr><td><code>dish_tracker.py</code></td><td>YOLOv8/NCNN inference, IoU-based tracking, stationary detection</td></tr>
+          <tr><td><code>face_recognizer.py</code></td><td>OpenCV LBPH face detection and recognition</td></tr>
+          <tr><td><code>database.py</code></td><td>SQLite event storage and query operations</td></tr>
+          <tr><td><code>media_cleanup.py</code></td><td>Auto-deletes snapshots older than 7 days</td></tr>
+        </table>
+
+        <h2>Face Recognition</h2>
+        <p>
+          The face recognition pipeline uses OpenCV's LBPH (Local Binary Pattern Histograms) algorithm with Haar Cascade detection. Before deployment, face images are captured per person using <code>capture_faces_opencv.py</code> and the model is trained with <code>train_faces_opencv.py</code>, producing <code>face_recognizer.xml</code>. 8–10 photos per person are recommended for reliable accuracy.
+        </p>
+        <p>
+          During operation, the face camera runs recognition every 3rd frame. Faces are labeled with a green bounding box if recognized or red if unknown.
+        </p>
+
+        <h2>Web Interface</h2>
+        <p>The Flask dashboard is accessible on the local network at <code>http://dish-bot.local:5000</code>.</p>
+        <table>
+          <tr><th>URL</th><th>Page</th></tr>
+          <tr><td><code>/</code></td><td>Live dual-camera dashboard</td></tr>
+          <tr><td><code>/history</code></td><td>Detection history with pagination</td></tr>
+          <tr><td><code>/api/recent_events</code></td><td>Last 10 events (JSON)</td></tr>
+          <tr><td><code>/api/daily_stats/YYYY-MM-DD</code></td><td>Daily dish count by person (JSON)</td></tr>
+        </table>
+
+        <h3>Dish Tracking Color Key</h3>
+        <table>
+          <tr><th>Color</th><th>Meaning</th></tr>
+          <tr><td>Blue</td><td>Dish is moving</td></tr>
+          <tr><td>Yellow</td><td>Dish is stationary, waiting</td></tr>
+          <tr><td>Orange</td><td>Dish stationary 15s+ — ready for association</td></tr>
+          <tr><td>Green</td><td>Dish associated with a person</td></tr>
+        </table>
+
+        <h2>Future Plans</h2>
         <ul>
-          <li><strong>Power Supply:</strong> I used a variable and portable DC power supply. MEGO Power Supply.</li>
-          <li><strong>Motor Driver:</strong> Controls the direction and speed of the DC motors.</li>
-          <li><strong>DC Motors:</strong> 2 DC motors with the tires mounted on them.</li>
-          <li><strong>Servo Motors:</strong> Mounted with an ultrasonic sensor on top to measure distances in different directions.</li>
-          <li><strong>Raspberry Pi Pico W:</strong> The brains of this robot car.</li>
-          <li><strong>Tires:</strong> Mounted on the chassis.</li>
+          <li>Daily leaderboard sent to GroupMe at 10pm</li>
+          <li>Manual override commands via GroupMe</li>
+          <li>Dish removal tracking (when person comes back to wash)</li>
+          <li>Achievement system and streaks</li>
+          <li>Export detection history to CSV</li>
         </ul>
-
-        <h2>Tools Used</h2>
-        <img class="steps-image" src="../car_project/tools.png" alt="Tools Used" loading="lazy">
-        <ul>
-          <li><strong>3D Printer:</strong> To print the chassis.</li>
-          <li><strong>Soldering Iron:</strong> For making connections.</li>
-          <li><strong>Hot Glue Gun:</strong> To attach components to the chassis.</li>
-          <li><strong>Breadboard and Jumper Wires:</strong> For connecting all the parts.</li>
-        </ul>
-
-        <h2>Assembly</h2>
-        <p class="numbered-list">
-          1. <strong>Soldering:</strong> Start by soldering the power and ground wires to the DC motors. The terminal connections can be adjusted later.<br>
-          <img class="steps-image" src="../car_project/solder.png" alt="Soldering" loading="lazy">
-          <br><br>
-          2. <strong>Hooking Up:</strong> Connect everything to the motor driver. Test an algorithm to ensure the motors run correctly.<br>
-          <img class="steps-image" src="../car_project/motor_d_test.png" alt="Motor Test" loading="lazy">
-          <br><br>
-          3. <strong>Adding the Sensor:</strong> Attach the ultrasonic sensor to measure distances and stop the motors when obstacles are detected.<br>
-          <img class="steps-image" src="../car_project/sensor.png" alt="Sensor" loading="lazy">
-          <br><br>
-          4. <strong>3D Printing:</strong> Print the chassis and start moving all parts onto it.<br>
-          5. <strong>Connecting Components:</strong> Run wires to the motor driver through the chassis hole. Test connections using the mega power supply and alligator clips.<br>
-          6. <strong>Breadboard Setup:</strong> Move wire connections to a smaller breadboard for easier handling.<br>
-          <img class="steps-image" src="../car_project/chassis.png" alt="Chassis" loading="lazy">
-          <br><br>
-          7. <strong>Final Touches:</strong> Glue on the rear swivel tire and attach the servo motor. Connect the servo motor to the Raspberry Pi with jumper wires.
-          <img class="steps-image" src="../car_project/servo.png" alt="Servo Setup" loading="lazy">
-        </p>
-
-        <h2>Programming</h2>
-        <p>
-          I opted for a modular design, where each hardware component has its own Python file:
-        </p>
-        <ul>
-          <li>DC Motors</li>
-          <li>Servo Motor</li>
-          <li>Ultrasonic Sensor</li>
-        </ul>
-        <p>
-          These files handle the declaration, setup, and operation functions for each component. The main logic resides in <code>main.py</code>.
-        </p>
-
-        <h2>Main Logic</h2>
-        <p class="numbered-list">
-          1. <strong>Imports:</strong> Import libraries from the component files.<br>
-          2. <strong>Initialization:</strong> Initialize components.<br>
-          <img class="steps-image" src="../car_project/first_code.png" alt="Initialization" loading="lazy">
-          <br><br>
-          3. <strong>Scan Directions Function:</strong> Measure distances straight ahead, left, and right, then save these values.<br>
-          <img class="steps-image" src="../car_project/second_code.png" alt="Scan Directions" loading="lazy">
-          <br><br>
-          4. <strong>Decision Making:</strong> Compare measurements. Prioritize going straight if the path is clear; otherwise, choose the optimal direction (left or right).<br>
-          <img class="steps-image" src="../car_project/third_code.png" alt="Decision Making" loading="lazy">
-          <br><br>
-          5. <strong>Navigate Loop:</strong> Continuously measure forward distance. If below threshold, use the optimal direction function to navigate.
-          <img class="steps-image" src="../car_project/fourth_code.png" alt="Navigate Loop" loading="lazy">
-          <br><br>
-          To look at the full detailed code, the Github link is at the end of this post!
-        </p>
-
-        <h2>Testing and Future Plans</h2>
-        <p>
-          After adjustments to the power supply, I was able to add vacuum functionality by attaching a low power vacuum to the chassis. Updates to the blog will come soon to reflect the changes! <br>
-          Testing the robot in my bedroom with obstacles, it navigated correctly, prioritizing forward movement. <br><br>
-          Future plans include building off the same platform with the addition of machine learning (AWS Rekognition)!
-        </p>
 
         <!-- Skills Links -->
         <div class="skills">
-          <a href="https://github.com/karamhaddad/ObjectAvoidingCar.git" target="_blank" rel="noopener noreferrer" class="skill">
+          <a href="https://github.com/hcodu" target="_blank" rel="noopener noreferrer" class="skill">
             <i class="fab fa-github"></i>
-            <span>Project's Github</span>
-          </a>
-          <a href="https://youtu.be/DBFbXrDwuZE" target="_blank" rel="noopener noreferrer" class="skill">
-            <i class="fab fa-youtube"></i>
-            <span>YouTube Video</span>
+            <span>GitHub</span>
           </a>
           <a href="../index.html#contact" class="skill">
             <i class="fas fa-envelope"></i>
