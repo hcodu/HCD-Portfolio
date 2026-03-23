@@ -322,4 +322,17 @@ object-fit: contain; /*this line is used to make the image fit the container*/
     height: 30px;
     font-size: 0.86em;
   }
+
+  /* make both carousels swipeable on mobile */
+  #projects-section-inner,
+  #experience-section-inner {
+    overflow-x: auto;
+    overflow-y: visible;
+  }
+  #projects-container,
+  #experience-container {
+    overflow-x: auto;
+    overflow-y: visible;
+    justify-content: flex-start;
+  }
 }
